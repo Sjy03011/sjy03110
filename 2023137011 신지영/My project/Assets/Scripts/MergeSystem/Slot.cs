@@ -37,3 +37,4 @@ public class Slot : MonoBehaviour
         ChangeStateTo(SLOTSTATE.FULL);                      //생성해서 아이템 슬롯이 차있다.
     }
 }
+
