@@ -144,7 +144,6 @@ public class GameController : MonoBehaviour
         return true;                                        //다 차있으므로 true를 리턴
     }
 
-
     Slot GetSlotById(int id)  //슬롯 ID로 슬롯을 검색 
     {
         return slotDictionary[id];          //딕셔너리에 담겨있는 Slot Class 반환 (번호를 통해서)
